@@ -558,7 +558,7 @@ h1.type {
  @media (min-width: 768px) {
   .thumbgrid a {
     width: 25%;
-  }
+  } 
  }
  .thumbgrid a img {
   display: block;
