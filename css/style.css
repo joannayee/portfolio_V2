@@ -453,17 +453,17 @@ h1.type {
 }
 
 #video { 
-  position: absolute;
+  position: relative;
   overflow: hidden;
-  top: 50%;
-  left: 50%;
+  top: 1.5em;
+  left: 18%;
   max-width: 65%;
   min-height: 100%;
   width: auto;
   height: auto;
   z-index: 0;
   margin-top: auto;
-  transform: translateX(-50%) translateY(-50%);
+  /* transform: translateX(-50%) translateY(-50%); */
 }
 
 /*Headline*/
@@ -561,7 +561,7 @@ h1.type {
   } 
  }
  .thumbgrid a img {
-  display: block;
+  /* display: block; */
   max-width: 100%;
   height: auto;
  }
@@ -587,14 +587,6 @@ h1.type {
   opacity: 1;
   transform: scale(1.05);
  }
-/* .icon-char {
-  font-size: 2em;
-  font-weight: 200;
-  display: block;
-  margin-top: 0.25em;
-  margin-bottom: 0.25em;
-  color:  #dedede;
- } */
  
  .mixcontainer {
   text-align: center;
@@ -602,12 +594,8 @@ h1.type {
  .mixcontrols {
   margin-bottom: 2em;
  }
- .wufoo input.text,
- .wufoo textarea.textarea {
-  padding: 1em;
- }
- 
-  
+ @media (min-width: 768px) {
+
   .Iam {
     padding: 2em 5em;
     font: normal 40px/50px "Montserrat", sans-serif;
@@ -627,6 +615,30 @@ h1.type {
     top: -90px;
     margin-left: 4em;
   }
+}
+
+@media (max-width: 320px) {
+
+  .Iam {
+    padding: 2em 5em;
+    font: normal calc(12px + 1vw) "Montserrat", sans-serif;
+    color: #fff;
+    margin-left:6em;
+  }
+  .Iam p {
+    height: 50px;
+    float: center;
+    margin-right: 0.3em;
+  }
+  .Iam b {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+    top: -90px;
+    margin-left: 4em;
+  }
+}
   .Iam .innerIam {
     display: inline-block;
     text-align: left;
