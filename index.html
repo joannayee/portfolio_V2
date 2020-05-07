@@ -15,6 +15,7 @@
     <!-- GOOGLE FONT -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,700;1,100;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
 
+  
     <!-- MAIN CSS FILE -->
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 
@@ -39,13 +40,19 @@
 
     <main>
         <section class="home wrapper fade-in-and-down">
-            <div class="title">
-                <h1 class="type">Graphic<br/>Designer</h1>
-               </div>
+            <div class="carousel">
+                <div class="slides">
+                  <a href="bookcovers" img src="img/bookcovers.jpg" alt="slide image" class="slide"></a>
+                 <img src="img/citylogo_thumbnail.png" alt="slide image" class="slide">
+                  <img src="https://picsum.photos/1280/720?random=3" alt="slide image" class="slide">
+                </div>
+                <div class="controls">
+                  <div class="control prev-slide">&#9668;</div>
+                  <div class="control next-slide">&#9658;</div>
 
-            <div class="image-wrapper wrapper">
-                <a href="#"><img class="name" src="img/background.svg" alt="Joanna" width="80%" height="20%"></a>
-            </div>
+                </div>
+                <!-- <button class="filter postion">See Work</button> -->
+              </div>
         </section>
 <section>
          <div class="Iam">
@@ -74,18 +81,14 @@
 
                 <div class="thumbgrid mixcontainer fade-and-move-in">
                     <a href="rotoscope/index.html" class="mix motion" title="Rotoscope | Motion"><img src="img/rotoscope.png" alt="Rotoscope"/></a>
-                    <a href="Bangkok.html" class="mix print" title="Bangkok | Print"><img src="img/citylogo_thumbnail.png" alt="Bangkok"/></a>
-                    <a href="Bangkok.html" class="mix print" title="Bookcover Trilogy | Print"><img src="img/citylogo_thumbnail.png" alt="Bangkok"/></a>
-                    <a href="Bangkok.html" class="mix print" title="Bookcover Trilogy | Print"><img src="img/citylogo_thumbnail.png" alt="Bangkok"/></a>
-                    <a href="Bangkok.html" class="mix print" title="Bookcover Trilogy | Print"><img src="img/citylogo_thumbnail.png" alt="Bangkok"/></a>
-                    <a href="Bangkok.html" class="mix print" title="Bookcover Trilogy | Print"><img src="img/citylogo_thumbnail.png" alt="Bangkok"/></a>
-                    <a href="Bangkok.html" class="mix print" title="Bookcover Trilogy | Print"><img src="img/citylogo_thumbnail.png" alt="Bangkok"/></a>
-                    <a href="Bangkok.html" class="mix print" title="Bookcover Trilogy | Print"><img src="img/citylogo_thumbnail.png" alt="Bangkok"/></a>
-                    <a href="Bangkok.html" class="mix print" title="Bookcover Trilogy | Print"><img src="img/citylogo_thumbnail.png" alt="Bangkok"/></a>
-                    <a href="Bangkok.html" class="mix print" title="Bookcover Trilogy | Print"><img src="img/citylogo_thumbnail.png" alt="Bangkok"/></a>
-                    <a href="Bangkok.html" class="mix print" title="Bookcover Trilogy | Print"><img src="img/citylogo_thumbnail.png" alt="Bangkok"/></a>
-                    <a href="Bangkok.html" class="mix print" title="Bookcover Trilogy | Print"><img src="img/citylogo_thumbnail.png" alt="Bangkok"/></a>
-                    <a href="Bangkok.html" class="mix print" title="Bookcover Trilogy | Print"><img src="img/citylogo_thumbnail.png" alt="Bangkok"/></a>
+                    <a href="citylogo" class="mix print" title="Bangkok | Print"><img src="img/citylogo_thumbnail.png" alt="Bangkok"/></a>
+                    <a href="soshawaii" class="mix print" title="Soshawaii | Print"><img src="/soshawaii/img/PosterMockup1.jpg" alt="Bangkok"/></a>
+                    <a href="bookcovers" class="mix print" title="Bookcover Trilogy | Print"><img src="img/citylogo_thumbnail.png" alt="Book covers"/></a>
+                    <a href="logosbookstore" class="mix print" title="Logos Bookstore | Print"><img src="img/citylogo_thumbnail.png" alt="Bangkok"/></a>
+                    <a href="kobayashikiyochika" class="mix  print" title="Brochure | Print"><img src="img/citylogo_thumbnail.png" alt="Bangkok"/></a>
+                    <a href="happea" class="mix print" title="Happea | Print"><img src="img/citylogo_thumbnail.png" alt="Bangkok"/></a>
+                   
+               
 
                 </div>
             </section>
@@ -112,6 +115,7 @@
         var mixer = mixitup(containerEl);
     });
  </script>
+ <script src="js/slider.js"></script>
 
 </body>
 

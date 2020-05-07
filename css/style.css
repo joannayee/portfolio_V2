@@ -64,7 +64,7 @@ a:hover { color: rgba(0, 0, 0, 1); }
 .subheadline {
   font-size: 2em;
   font-weight: 300;
-  color: rgba(0,0,0,.4);
+  color: rgba(255,243,59,.8);
   line-height: 1;
   margin: 0 0 .6em 0;
 }
@@ -594,6 +594,26 @@ h1.type {
  .mixcontrols {
   margin-bottom: 2em;
  }
+ button.filter {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid rgb(255, 255, 255);
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-color: transparent;
+ }
+
+ button.filter:hover {
+   cursor: pointer;
+   background-color: rgba(255,243,59,.8);
+ }
+
  @media (min-width: 768px) {
 
   .Iam {
@@ -703,4 +723,59 @@ h1.type {
       40% { top: -100px; }
       60% { top: -150px; }
       80% { top: -200px; }
+  }
+  
+  .carousel {
+    width: 80vw;
+    height: 250px;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  }
+  .carousel:hover .controls {
+    opacity: 1;
+  }
+  .carousel .controls {
+    opacity: 0;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 99999;
+    transition: all ease 0.5s;
+  }
+  .carousel .controls .control {
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    opacity: 0.5;
+    transition: ease 0.3s;
+    cursor: url("https://pngimage.net/wp-content/uploads/2018/05/cute-cursor-png-1.png") default;
+  }
+  .carousel .controls .control:hover {
+    opacity: 1;
+  }
+  .carousel .slides {
+    position: absolute;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    width: 100%;
+    transition: 1s ease-in-out all;
+  }
+  .carousel .slides .slide {
+    min-width: 100%;
+    min-height: 250px;
+    height: auto;
+  }
+  .carousel.img {
+    margin-top: -1em;
   }
