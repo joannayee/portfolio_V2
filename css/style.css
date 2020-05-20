@@ -830,10 +830,10 @@ h1.type {
 
 @media (max-width: 500px) {
   .hero.brochure {
-    background-image: url("/kobayashikiyochika/img/brochure\ front.png");
+    background-image: url("../kobayashikiyochika/img/brochure_back.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
   }
 }
 
@@ -843,6 +843,7 @@ h1.type {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 100vh;
   }
 }
 @media (max-width: 500px) {
@@ -851,6 +852,16 @@ h1.type {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 100vh;
+  }
+}
+@media (max-width: 500px) {
+  .hero.bangkok {
+    background-image: url("/img/citylogo_thumbnail.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
   }
 }
 @media (min-width: 768px) {
