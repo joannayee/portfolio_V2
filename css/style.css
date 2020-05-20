@@ -830,10 +830,11 @@ h1.type {
 
 @media (max-width: 500px) {
   .hero.brochure {
-    background-image: url("../kobayashikiyochika/img/brochure_back.png");
+    background-image: url("/kobayashikiyochika/img/brochure_front.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    height: 100vh;
   }
 }
 
