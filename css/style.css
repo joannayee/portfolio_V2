@@ -786,7 +786,7 @@ h1.type {
     min-width: 100%;
     min-height: 250px;
     height: auto;
-    background-image: url("/img/soshawaii-slide.png");
+    background-image: url("../img/soshawaiislide.png");
     background-position-x: center;
     background-repeat: no-repeat;
 
@@ -795,7 +795,7 @@ h1.type {
     min-width: 100%;
     min-height: 250px;
     height: auto;
-    background-image: url("/img/bookcovers-slide.png");
+    background-image: url("../img/bookcoversslide.png");
     background-position-x: center;
     background-repeat: no-repeat;
   }
@@ -804,7 +804,7 @@ h1.type {
     min-width: 100%;
     min-height: 250px;
     height: auto;
-    background-image: url("/img/bookcovers-slide.png");
+    background-image: url("../img/bookcoversslide.png");
     background-position-x: center;
     background-repeat: no-repeat;
   }
@@ -813,7 +813,7 @@ h1.type {
   }
   @media (min-width: 500px) {
     .hero.sos {
-    background-image: url("/soshawaii/img/PosterMockup1.png");
+    background-image: url("../soshawaii/img/posterbig.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -821,7 +821,7 @@ h1.type {
 }
 @media (max-width: 500px) {
   .hero.sos {
-    background-image: url("/soshawaii/img/PosterMockup1-small.png");
+    background-image: url("../soshawaii/img/postersmall.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -830,7 +830,7 @@ h1.type {
 
 @media (max-width: 500px) {
   .hero.brochure {
-    background-image: url("/kobayashikiyochika/img/brochure_front.png");
+    background-image: url("../kobayashikiyochika/img/brochurefront.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -840,7 +840,7 @@ h1.type {
 
 @media (max-width: 500px) {
   .hero.brochure {
-    background-image: url("/img/bookcovers.jpg");
+    background-image: url("../img/bookcovers.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -849,7 +849,7 @@ h1.type {
 }
 @media (max-width: 500px) {
   .hero.happea {
-    background-image: url("/happea/img/JoannaYee_Happea_Packaging2.jpg");
+    background-image: url("../happea/img/JoannaYee_Happea_Packaging2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -858,7 +858,7 @@ h1.type {
 }
 @media (max-width: 500px) {
   .hero.bangkok {
-    background-image: url("/img/citylogo_thumbnail.png");
+    background-image: url("../img/citylogo_thumbnail.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
