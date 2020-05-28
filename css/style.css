@@ -569,10 +569,9 @@ h1.type {
  @media (min-width: 768px) {
 
   .Iam {
-    padding: 2em 5em;
     font: normal 40px/50px "Montserrat", sans-serif;
     color: #fff;
-    margin-left:6em;
+    margin-left:5em;
   }
   .Iam p {
     height: 50px;
@@ -583,22 +582,24 @@ h1.type {
     float: left;
     overflow: hidden;
     position: relative;
-    height: 50px;
+    height: 60px;
     top: -90px;
-    margin-left: 4em;
+    margin-left: 3em;
+    padding-right: 2em;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 420px) {
 
   .Iam {
     padding: auto 0;
-    font: calc(12px + 1vw)  "Montserrat", sans-serif;
+    font: "Montserrat", sans-serif;
+    font-size: inherit;
     color: #fff;
     margin-left:6em;
   }
   .Iam p {
-    height: 50px;
+    height: 500px;
     float: center;
     margin-right: 0.3em;
   }
@@ -606,9 +607,9 @@ h1.type {
     float: left;
     overflow: hidden;
     position: relative;
-    height: 10px;
+    height: 100px;
     top: -90px;
-    margin-left: 4em;
+    margin-left: 6em;
   }
 }
   .Iam .innerIam {
@@ -676,6 +677,7 @@ h1.type {
       60% { top: -150px; }
       80% { top: -200px; }
   }
+
   
   .carousel {
     width: 80vw;
@@ -692,7 +694,7 @@ h1.type {
     opacity: 0;
     display: flex;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 0;
     justify-content: space-between;
     width: 100%;
