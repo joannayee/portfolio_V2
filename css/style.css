@@ -367,7 +367,7 @@ h1.type {
 }
 
 .page-projectdetail .darker {
-  background: rgba(0, 0, 0,.05);
+  background: rgba(255, 255, 255, 0.05);
 }
 
 .projectinfo p {
@@ -757,6 +757,22 @@ h1.type {
     margin-top: -1em;
   }
   @media (min-width: 500px) {
+    .hero.logos {
+    background-image: url("../logosbookstore/img/bookstore.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media (max-width: 500px) {
+  .hero.logos {
+  background-image: url("../logosbookstore/img/bookstore.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+}
+  @media (min-width: 500px) {
     .hero.sos {
     background-image: url("../soshawaii/img/posterbig.png");
     background-repeat: no-repeat;
@@ -803,7 +819,16 @@ h1.type {
 }
 @media (max-width: 500px) {
   .hero.bangkok {
-    background-image: url("../img/citylogo_thumbnail.png");
+    background-image: url("../bangkok/img/citylogobig.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+}
+@media (min-width: 500px) {
+  .hero.bangkok {
+    background-image: url("../bangkok/img/citylogobig.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -858,4 +883,8 @@ h1.type {
 }
 .one-half {
   padding: 1.5em;
+}
+.headline.gallery{
+  margin-bottom: 60px;
+  text-align: center;
 }
