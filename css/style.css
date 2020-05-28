@@ -589,7 +589,7 @@ h1.type {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 320px) {
 
   .Iam {
     padding: auto 0;
