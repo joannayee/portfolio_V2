@@ -113,7 +113,9 @@ margin-left: 20px;
   color: #fff;
   border-color: rgba(233,62,58,1);
 }
-
+.column.subcontent-image.one-third {
+  padding-top: 5em;
+}
 /* LAYOUT */
 .container {
   max-width: 1000px;
