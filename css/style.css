@@ -98,6 +98,7 @@ margin-left: 20px;
 /* BUTTONS */
 .center{
   text-align: center;
+  padding-bottom: 1em;
 }
 .button {
   display: inline-block;
@@ -379,6 +380,7 @@ h1.type {
 
 .subcontent-text {
   padding: 2em 0;
+  text-align: center;
 }
 
 .subcontent-text h3 {
@@ -855,6 +857,7 @@ h1.type {
   .row > .column {
     margin: 0 1% 2% 1%;
     flex-grow: 1;
+  
   }
   .row > .column.one-half {
     width: 48%;
@@ -887,4 +890,22 @@ h1.type {
 .headline.gallery{
   margin-bottom: 60px;
   text-align: center;
+}
+
+.gallery.h3
+{font-family: "Montserrat", serif;
+  font-weight: 500;
+
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
 }
