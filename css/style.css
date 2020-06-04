@@ -98,7 +98,17 @@ margin-left: 20px;
 /* BUTTONS */
 .center{
   text-align: center;
-  padding-bottom: 1em;
+  padding-top: 3em;
+}
+.middle{
+  text-align: center;
+  padding-top: 0em;
+  padding-bottom: .5em;
+}
+.textcenter{
+  text-align: center;
+  padding-top: 0em;
+  padding-bottom: 1.5em;
 }
 .button {
   display: inline-block;
@@ -113,8 +123,22 @@ margin-left: 20px;
   color: #fff;
   border-color: rgba(233,62,58,1);
 }
-.column.subcontent-image.one-third {
-  padding-top: 5em;
+.column.subcontent-image.one-half {
+  padding-top: 8em;
+}
+.column.subcontent-image {
+  padding-top: 2em;
+}
+.column.subcontent-text {
+  padding-top: 2em;
+}
+.column.subcontent-text.one-half {
+  padding-top: 8em;
+}
+@media (max-width: 768px){
+  .column.subcontent-text.one-half {
+    padding-top: 0em;
+  }
 }
 /* LAYOUT */
 .container {
@@ -814,7 +838,7 @@ h1.type {
 }
 @media (min-width: 500px) {
   .hero.happea {
-    background-image: url("../happea/img/JoannaYee_Happea_Packaging2.jpg");
+    background-image: url("../happea/img/happeapackage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
