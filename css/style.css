@@ -760,7 +760,6 @@ section.not-full-height {
   background-position: center;
   height: 100vh;
 }
-@media (max-width: 500px) {
   .hero.bangkok {
     background-image: url("../bangkok/img/citylogobig.png");
     background-repeat: no-repeat;
@@ -768,17 +767,7 @@ section.not-full-height {
     background-position: center;
     height: 100vh; 
   }
-}
-@media (min-width: 500px) {
-  .hero.bangkok {
-    background-image: url("../bangkok/img/citylogobig.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-  }
-}
-}
+
   @media (min-width: 500px) {
     .hero.sos {
     background-image: url("../soshawaii/img/posterbig.png");
@@ -801,12 +790,20 @@ section.not-full-height {
     background-image: url("../kobayashikiyochika/img/brochurefront.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: center;
+    height: 100vh;
+  }
+}
+@media (max-width: 500px) {
+  .hero.brochure {
+    background-image: url("../kobayashikiyochika/img/brochuresmall.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
   }
 }
 
-@media (min-width: 500px) {
   .hero.book {
     background-image: url("../img/bookcovers.jpg");
     background-repeat: no-repeat;
@@ -814,7 +811,7 @@ section.not-full-height {
     background-position: center;
     height: 100vh;
   }
-}
+
 @media (min-width: 500px) {
   .hero.happea {
     background-image: url("../happea/img/happeapackage.jpg");
