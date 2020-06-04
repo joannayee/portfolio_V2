@@ -749,6 +749,7 @@ section.not-full-height {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 100vh;
   }
 }
 @media (max-width: 500px) {
@@ -757,6 +758,7 @@ section.not-full-height {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: 100vh;
 }
 @media (max-width: 500px) {
   .hero.bangkok {
