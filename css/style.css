@@ -87,6 +87,7 @@ img {
   display: block;
   align-content: center;
   margin-bottom: 3em;
+  border-radius: 50%;
   /* margin-left: 7.5em; */
 }
 .logo {
@@ -760,6 +761,7 @@ section.not-full-height {
   background-position: center;
   height: 100vh;
 }
+}
   .hero.bangkok {
     background-image: url("../bangkok/img/citylogobig.png");
     background-repeat: no-repeat;
@@ -787,7 +789,7 @@ section.not-full-height {
 
 @media (min-width: 500px) {
   .hero.brochure {
-    background-image: url("../kobayashikiyochika/img/brochurefront.png");
+    background-image: url("../kobayashikiyochika/img/brochureback.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -817,7 +819,7 @@ section.not-full-height {
     background-image: url("../happea/img/happeapackage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center  ;
     height: 100vh;
   }
 }
